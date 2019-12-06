@@ -1,0 +1,20 @@
+/* ===================================================================
+ * fonts.css
+ *
+ * ------------------------------------------------------------------- */
+
+@font-face{
+    font-family: "perfectChristmas";
+    src: url("../fonts/ThePerfectChristmas.ttf")
+    format("woff");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: "authorName";
+    src: url("../fonts/JennaSue.ttf")
+    format("woff");
+    font-style: normal;
+    font-weight: normal;
+}
