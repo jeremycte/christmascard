@@ -17,4 +17,14 @@
     format("woff");
     font-style: normal;
     font-weight: normal;
+    font-display: fallback;
+}
+
+@font-face{
+    font-family: "Dosis";
+    src:url("./fonts/Dosis-Regular.ttf")
+    format("woff");
+    font-style: normal;
+    font-weight: normal;
+    font-display: fallback;
 }

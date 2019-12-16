@@ -4,7 +4,8 @@
  * ------------------------------------------------------------------- */
 
 @import url("https://fonts.googleapis.com/css?family=Mirza&amp;subset=latin-ext");
-@import url('https://fonts.googleapis.com/css?family=Dosis:500&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Dosis:500&display=swap");
+/* @import url("../fonts/Dosis-Regular.ttf"); */
 @import url("fonts.css");
 * {
   box-sizing: border-box;
@@ -214,6 +215,8 @@ body {
 }
 h3{
   font-family: "Dosis", sans-serif;
+  font-weight: 500;
+  font-display: fallback; /* Define how the browser behaves during download */
   font-size: 9.5px;
   text-align: center;
   padding-left: 0.5rem;
@@ -236,7 +239,7 @@ h3{
     background-position: 0px 30px;
   }
   h3{
-    font-size: 5.5px;
+    font-size: 5.0px;
     position: initial;
     bottom:initial;
   }
@@ -337,21 +340,26 @@ p {
 }
 .content{
     font-family: "Dosis", sans-serif;
+    font-weight: 500;
+    font-display: fallback; /* Define how the browser behaves during download */
     font-size: 18px;
     text-align: justify;
     padding-top: 4.3rem;
     padding-right:1rem;
 }
 .authorname{
-    font-family: "authorName";
+    font-family: "authorName", sans-serif;
     font-weight: 600;
+    font-display: fallback; /* Define how the browser behaves during download */
     font-size: 35px;
     position: absolute;
     bottom: -10px;
     left: 55%;
 }
 h1{
-  font-family: "authorName";
+  font-family: "authorName", sans-serif;
+  font-weight: 600;
+  font-display: fallback; /* Define how the browser behaves during download */
   font-size: 30px;
   position: absolute;
   top:10px;
@@ -386,7 +394,7 @@ h1{
   }
   .authorname{
       bottom: -9px;
-      font-size: 15px;
+      font-size: 14px;
       left: 55%;
   }
     h1{
