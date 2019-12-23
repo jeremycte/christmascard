@@ -342,7 +342,7 @@ p {
     font-family: "Dosis", sans-serif;
     font-weight: 500;
     font-display: fallback; /* Define how the browser behaves during download */
-    font-size: 18px;
+    font-size: 17px;
     text-align: justify;
     padding-top: 4.3rem;
     padding-right:1rem;
@@ -369,7 +369,7 @@ h1{
     font-size: 24px;
   }
   .content{
-      font-size: 13px;
+      font-size: 12px;
       padding-top: 2.5rem;
       padding-right:0.5rem;
   }
@@ -388,8 +388,8 @@ h1{
     font-size: 20px;
   }
   .content{
-    font-size: 8px;
-    padding-top: 1.4rem;
+    font-size: 7.4px;
+    padding-top: 1.7rem;
     padding-right:0.5rem;
   }
   .authorname{
